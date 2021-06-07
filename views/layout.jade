@@ -9,17 +9,18 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    ul
-      +item('Strona główna', '/')
-      +item('Aktualności', '/news')
-      +item('Quiz', '/quiz')
-      +item('Admin', '/admin')
-      //- li
-      //-   a(href="/") Srtona główna
-      //- li
-      //-   a(href="/news") Aktualnosci
-      //- li
-      //-   a(href="/quiz") Quiz
-      //- li
-      //-   a(href="/admin") Admin
+    nav
+      ul
+        +item('Strona główna', '/')
+        +item('Aktualności', '/news')
+        +item('Quiz', '/quiz')
+        +item('Admin', '/admin')
+        //- li
+        //-   a(href="/") Srtona główna
+        //- li
+        //-   a(href="/news") Aktualnosci
+        //- li
+        //-   a(href="/quiz") Quiz
+        //- li
+        //-   a(href="/admin") Admin
     block content
